@@ -14,9 +14,7 @@ nav{min-height:74px;display:flex;align-items:center;justify-content:space-betwee
 .links{display:flex;gap:20px;font-size:14px}.links a:hover{color:var(--gold)}
 .hero{min-height:82vh;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 35%,#332515 0,#17120c 23%,#090909 58%)}
 .hero:before{content:"N";position:absolute;font-family:Georgia,serif;font-size:min(55vw,650px);line-height:1;color:#d4af3708;font-weight:bold}
-.hero-inner{position:relative;z-index:1;max-width:900px;padding:70px 0}.mark{width:126px;height:126px;margin:0 auto 28px;position:relative;transform:rotate(30deg)}
-.mark:before,.mark:after{content:"";position:absolute;inset:15px;border:13px solid var(--gold);border-radius:24px;transform:skew(-8deg)}
-.mark:after{inset:36px -3px 36px 36px;border-color:var(--gold2);opacity:.8}
+.hero-inner{position:relative;z-index:1;max-width:900px;padding:70px 0}.logo-img{display:block;width:min(330px,76vw);height:auto;margin:0 auto 28px;object-fit:contain}
 .eyebrow{color:var(--gold);letter-spacing:3px;font-size:13px;font-weight:bold}.hero h1{font-size:clamp(38px,7vw,78px);margin:8px 0;line-height:1.25}
 .hero h1 span{color:var(--gold)}.lead{font-size:clamp(17px,2.4vw,23px);color:#ddd3c2;max-width:750px;margin:18px auto 32px}
 .btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{padding:12px 24px;border:1px solid var(--gold);border-radius:999px;font-weight:bold}
@@ -38,23 +36,23 @@ section{padding:86px 0}.head{margin-bottom:34px}.head small{color:var(--gold);fo
 
 <main>
 <section class="hero" id="home"><div class="hero-inner wrap">
-<div class="mark" aria-label="شعار نورسين"></div>
+<img class="logo-img" src="norseen-logo-final.png" alt="شعار نورسين">
 <div class="eyebrow">NORSEEN TRADING CO.</div>
-<h1>نورسين <span>للتوريد والتوزيع</span></h1>
+<h1>نورسين <span>للتوزيع</span></h1>
 <p class="lead">نعمل على بناء علاقات توريد مستقرة، واختيار منتجات تلائم احتياج السوق، وتقديم خدمة عملية تساعد شركاءنا على النمو بثقة.</p>
 <div class="btns"><a class="btn primary" href="#contact">تواصل معنا</a><a class="btn" href="#about">تعرف علينا</a></div>
 </div></section>
 
 <section id="about"><div class="wrap about">
 <div class="panel"><div class="head"><small>من نحن</small><h2>شراكات تبدأ بالثقة</h2></div>
-<p>نورسين شركة تجارية تعمل في التوريد والتوزيع، وتركّز على تطوير علاقات طويلة المدى مع العملاء والشركاء. نهتم بالتفاصيل التي تصنع فرقاً في العمل اليومي: وضوح التعامل، جودة الاختيار، والمتابعة من بداية الطلب وحتى التسليم.</p>
-<p>ننظر إلى التوريد باعتباره أكثر من مجرد نقل منتج؛ فهو التزام بالاستمرارية وفهم للسوق واحتياجاته المتغيرة.</p></div>
+<p>نورسين شركة تجارية تعمل في التوزيع، وتركّز على تطوير علاقات طويلة المدى مع العملاء والشركاء. نهتم بالتفاصيل التي تصنع فرقاً في العمل اليومي: وضوح التعامل، جودة الاختيار، والمتابعة من بداية الطلب وحتى التسليم.</p>
+<p>ننظر إلى التوزيع باعتباره أكثر من مجرد وصول المنتج؛ فهو التزام بالاستمرارية وفهم للسوق واحتياجاته المتغيرة.</p></div>
 <div class="panel quote">هدفنا بسيط: <span class="gold">منتج مناسب، خدمة واضحة، وعلاقة تجارية تستمر.</span></div>
 </div></section>
 
 <section id="work"><div class="wrap"><div class="head"><small>ما الذي نركز عليه؟</small><h2>أسلوب عمل عملي وواضح</h2><p>نطوّر أعمالنا حول احتياجات السوق وشركائنا، مع الاهتمام بجودة المنتجات وسهولة التعامل واستمرارية التوريد.</p></div>
 <div class="grid">
-<div class="card"><div class="num">01</div><h3>التوريد</h3><p>اختيار وتوفير المنتجات وفق متطلبات السوق والعملاء.</p></div>
+<div class="card"><div class="num">01</div><h3>اختيار المنتجات</h3><p>اختيار المنتجات بما يلائم متطلبات السوق والعملاء.</p></div>
 <div class="card"><div class="num">02</div><h3>التوزيع</h3><p>تنظيم حركة المنتجات والوصول إلى العملاء بكفاءة ووضوح.</p></div>
 <div class="card"><div class="num">03</div><h3>الشراكات</h3><p>بناء تعاون تجاري مستمر قائم على الثقة والمتابعة.</p></div>
 </div></div></section>
